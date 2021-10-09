@@ -6,7 +6,7 @@ class ImageTestClass(TestCase):
 
     #set up method
     def setUp(self):
-        self.cat = Image(name = 'cat', description = 'This cat was made in china')
+        self.cat = Image(name = 'cat', description = 'This cat was made in china dshsi')
 
     # Testing instance
     def test_instace(self):
