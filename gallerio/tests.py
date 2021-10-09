@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Image
+from .models import Image, Location, Category
 
 # Create your tests here.
 class ImageTestClass(TestCase):
@@ -12,8 +12,8 @@ class ImageTestClass(TestCase):
     def test_instace(self):
         self.assertTrue(isinstance(self.cat,Image))
 
-    # # Testing Save Method
-    # def test_save_method(self):
-    #     self.cat.save_image()
-    #     images = Image.objects.all()
-    #     self.assertTrue(len(images) > 0)
+    # Testing Save Method
+    def test_save_method(self):
+        self.cat.save_image()
+        images = Image.objects.all()
+        self.assertTrue(len(images) > 0)
