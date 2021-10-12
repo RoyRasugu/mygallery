@@ -43,7 +43,7 @@ class LocationTestClass(TestCase):
         """
         Creating a new instance of the Location class
         """
-        self.place = Location(city = "Nairobi", country = "Kenya")
+        self.place = Location(city = "Nakuru", country = "Kenya")
         self.place.save()
 
     def test_instance(self):
