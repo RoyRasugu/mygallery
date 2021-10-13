@@ -5,6 +5,9 @@ Roy Rasugu
 ## Description
 This is photo gallery web application to showcase pictures and designs. Users get to view photos updated by the site admin.
 
+## Screenshot
+<img src="static/img/gallery.jpg" > The arrow is pointing at the toogle menu that drops down
+
 ## Livepage
 https://mineartgallery.herokuapp.com/ 
 
